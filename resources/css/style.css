@@ -1,0 +1,153 @@
+                                                                            .navbar {
+                                                                                background-color: white;
+                                                                                position: fixed;
+                                                                                top: 0;
+                                                                                width: 100%;
+                                                                            }
+                                                                            
+                                                                            .navbar li {
+                                                                                display: inline-block;
+                                                                                padding: 0 20px;
+                                                                            }
+                                                                            
+                                                                            .navbar a {
+                                                                                text-decoration: none;
+                                                                                color: black;
+                                                                            }
+                                                                            
+                                                                            .banner {
+                                                                                background-color: white;
+                                                                                color: black;
+                                                                                margin-top: 50px;
+                                                                                text-align: left;
+                                                                            }
+                                                                            
+                                                                            * {
+                                                                                font-family: Helvetica, Arial, sans-serif;
+                                                                            }
+                                                                            
+                                                                            .title h5 {
+                                                                                text-align: right;
+                                                                                margin-top: -2rem;
+                                                                            }
+                                                                            
+                                                                            .grid {
+                                                                                display: grid;
+                                                                                height: 1000px;
+                                                                                width: 1200px;
+                                                                                grid-template-columns: repeat(12, 1fr);
+                                                                                grid-template-rows: repeat(20, 1fr);
+                                                                                !border: 1px solid black;
+                                                                                margin: 10px;
+                                                                            }
+                                                                            
+                                                                            .box {
+                                                                                !border: 2px solid black;
+                                                                            }
+                                                                            
+                                                                            .a {
+                                                                                grid-row-start: 3;
+                                                                                grid-row-end: 4;
+                                                                                grid-column-start: 2;
+                                                                                grid-column-end: 6;
+                                                                            }
+                                                                            
+                                                                            .b {
+                                                                                grid-row-start: 4;
+                                                                                grid-row-end: 5;
+                                                                                grid-column-start: 1;
+                                                                                grid-column-end: 9;
+                                                                            }
+                                                                            
+                                                                            .c {
+                                                                                grid-row-start: 8;
+                                                                                grid-row-end: 10;
+                                                                                grid-column-start: 2;
+                                                                                grid-column-end: 8;
+                                                                            }
+                                                                            
+                                                                            .d {
+                                                                                grid-row-start: 10;
+                                                                                grid-row-end: 14;
+                                                                                grid-column-start: 1;
+                                                                                grid-column-end: 12;
+                                                                            }
+                                                                            
+                                                                            .e {
+                                                                                grid-row-start: 3;
+                                                                                grid-row-end: 4;
+                                                                                grid-column-start: 1;
+                                                                                grid-column-end: 2;
+                                                                            }
+                                                                            
+                                                                            .f {
+                                                                                grid-row-start: 8;
+                                                                                grid-row-end: 10;
+                                                                                grid-column-start: 1;
+                                                                                grid-column-end: 2;
+                                                                            }
+                                                                            
+                                                                            .prof-img {
+                                                                                margin-top: 1.5rem;
+                                                                                margin-left: 3rem;
+                                                                            }
+                                                                            
+                                                                            .exp-img {
+                                                                                margin-top: 1rem;
+                                                                                margin-left: 3rem;
+                                                                            }
+                                                                            
+                                                                            .g {
+                                                                                grid-row-start: 2;
+                                                                                grid-row-end: 11;
+                                                                                grid-column-start: 12;
+                                                                                grid-column-end: 12.5;
+                                                                            }
+                                                                            
+                                                                            #bitmoji {
+                                                                                height: 16rem;
+                                                                                width: 16rem;
+                                                                                margin-bottom: 2rem;
+                                                                            }
+                                                                            
+                                                                            .gitImg {
+                                                                                margin-right: .3rem;
+                                                                            }
+                                                                            
+                                                                            .linkImg {
+                                                                                margin-right: .3rem;
+                                                                            }
+                                                                            
+                                                                            #email {
+                                                                                font-size: 1rem;
+                                                                            }
+                                                                            
+                                                                            img #email {
+                                                                                margin-right: .2rem;
+                                                                            }
+                                                                            
+                                                                            .contact-box {
+                                                                                background-color: rgb(94, 221, 215);
+                                                                                !border: .1rem solid rgb(7, 3, 22);
+                                                                                border-radius: 1rem;
+                                                                            }
+                                                                            
+                                                                            .contact-box ul {
+                                                                                text-align: justify;
+                                                                                text-decoration: none;
+                                                                                list-style: none;
+                                                                                font-size: 1.3rem;
+                                                                                color: dimgray;
+                                                                                text-shadow: .08rem .08rem .08rem #000000;
+                                                                            }
+                                                                            
+                                                                            .contact-box li {
+                                                                                margin-bottom: .5rem;
+                                                                                text-decoration: none;
+                                                                                list-style: none;
+                                                                            }
+                                                                            
+                                                                            .contact-box a {
+                                                                                color: dimgray;
+                                                                                text-decoration: none;
+                                                                            }
